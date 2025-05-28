@@ -103,6 +103,7 @@ class Message(Object):
         self.successful_payment: "objects.SuccessfulPayment" = successful_payment
         self.media_group_id: int = media_group_id
 
+
     @property
     def media_type(self):
         for media_type in MessageMediaType:
